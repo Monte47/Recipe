@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Thai Curry Recipe</title>
+    <meta name="description" content="The best taste delicious easy original authentic awesome thai curry recipe">
+    <link rel="stylesheet" href="../css_reset.css" type="text/css"/>
+    <script src="/..external_javascript_example.js" type="text/javascript"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-12345678-9', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+      <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Appacademylogo.png/175px-Appacademylogo.png">
+        <nav>
+          <ul>
+            <li><a href="#description">Description</a></li>
+            <li><a href="#ingredients">Ingredients</a></li>
+            <li><a href="#directions">Directions</a></li>
+          </u1>
+        </nav>
+      </header>
+
+    <h1>Thai Curry</h1>
+    <img src="http://img.sndimg.com/food/image/upload/h_465,w_620,c_fit/v1/img/recipes/32/76/95/picGABc0Q.jpg"
+    alt="Korean Chicken Recipe">
+    <h2 id=description>Description</h2>
+    <p>
+      Thai curry dish is made from curry paste, coconut milk or water, meat, seafood, vegetables or fruit, and herbs. <a href="http://img.sndimg.com/food/image/upload/h_465,w_620,c_fit/v1/img/recipes/32/76/95/picGABc0Q.jpg">Wikipedia History</a>
+    </p>
+    <aside>
+      <h2 id=ingredients>Ingredients</h2>
+      <u1>
+        <li>2 cups cooked jasmine rice</li>
+        <li>1/2 cup green/red curry paste, quality authentic paste is key</li>
+        <li>1-2 cans (13.5) ounce coconut cream</li>
+        <li>beef/chicken broth</li>
+        <li>2 chicken breasts, thinly sliced (or protein of your choice)</li>
+        <li>3 tablespoons fish sauce</li>
+        <li>1/4 cup palm or coconut sugar</li>
+        <li>2-3 shoots lemongrass</li>
+        <li>1/2 onion, choped</li>
+        <li>2 teaspoons garlic</li>
+        <li>pineapple, cubed</li>
+        <li>2-4 thai chiles, chopped</li>
+        <li>3 tsp lime juice</li>
+        <li>fresh kaffir lime leaves</>
+          <li>snow peas</li>
+          <li>peppers, chopped</li>
+          <li>various vegetables of your choice, usually carrots and peas</li>
+          <li>2 tsp garlic</li>
+          <li>3 tsp ginger</li>
+        </u1>
+  </aside>
+  <section>
+    <h2 id=directions>Directions</h2>
+    <ol>
+      <li>In a large pot, lightly fry your garlic and curry powder in some oil until it opens up well, do not let it burn.</li>
+      <li>Add your coconut cream, stir consistently and add broth until consitency is to your taste. Crack/pound and add lemongrass shoots. Heat to a light boil.</li>
+      <li>Add more curry paste to taste. Add protein and heavy vegetables. Stir until cooked lightly. If your chicken is cooked through, you have gone too long. Add thai chiles. </li>
+      <li>Reduce heat. Add lighter vegetables, coconut sugar, fish sauce, lime juice, and ginger. Let your curry lightly simmer for a bit.</li>
+      <li>Remove from heat. Add pineapple and lime leaves. Stir well. Let sit for a while to thicken. Remove lemongrass. Serve over rice. Garnish with cilantro or thai basil.</li>
+    </ol>
+  </section>
+
+  <section id='reviews'>
+    <h2>Reviews</h2>
+      <form id="review-form" action="/reviews" method="post">
+        <label for="name">NAME</label>
+        <input id="name" type="text" name="name">
+
+        <label for="rating">RATING</label>
+        1<input type="radio" name="rating" value='1' checked>
+        2<input type="radio" name="rating" value='2'>
+        3<input type="radio" name="rating" value='3'>
+        4<input type="radio" name="rating" value='4'>
+        5<input type="radio" name="rating" value='5'>
+
+        <label for="cooking level">COOKING LEVEL</label>
+        <select id='cooking level' name="cooking level">
+          <option value="Select Cooking Level" disabled selected>Select Cooking Level</option>
+          <option value="I burn water">I burn water</option>
+          <option value="Ok cook">Ok cook</option>
+          <option value="Pretty good">Pretty good</option>
+          <option value="Very good">Very good</option>
+          <option value="Professional">Professional</option>
+        </select>
+
+        <br><br>
+
+        <label>Review
+          <textarea name="review"></textarea>
+        </label>
+
+        <input type="submit" value="Submit">
+
+      </form>
+  </section>
+
+
+  <footer>
+    <p> Original recipe by Monte Jiran</p>
+  </footer>
+  </body>
+</html>
